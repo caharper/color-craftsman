@@ -1,19 +1,19 @@
-# Color-Craft
+# Color-Craftsman
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 ![Development Status](https://img.shields.io/badge/development-active-brightgreen.svg)
-![PyPI Downloads](https://img.shields.io/pypi/dm/color-craft.svg)
+![PyPI Downloads](https://img.shields.io/pypi/dm/color-craftsman.svg)
 
 ## Description
 
-Color-Craft creates perceptually-distinct color palettes for data visualization in Python. While many great plotting libaries exist, they often rely on fixed color palettes and generally have few colors. These colors often conflict with one another. Color-Craft allows users to create a palette of colors that are perceptually distinct from one another. This allows for more colors to be used in a plot without sacrificing readability.
+Color-Craftsman creates perceptually-distinct color palettes for data visualization in Python. While many great plotting libaries exist, they often rely on fixed color palettes and generally have few colors. These colors often conflict with one another. Color-Craftsman allows users to create a palette of colors that are perceptually distinct from one another. This allows for more colors to be used in a plot without sacrificing readability.
 
 ## Installation
 
 ```bash
-pip install color-craft
+pip install color-craftsman
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Simple examples are shown below. For more examples, see the [examples](./example
 ### Creating a Random Palette
 
 ```python
-import color_craft as cc
+import color_craftsman as cc
 
 # Create a palette with 5 colors
 palette = cc.generate_palette(
@@ -42,7 +42,7 @@ cc.visualize_palette(palette, show=True)
 ### Creating a Palette from a Base Palette
 
 ```python
-import color_craft as cc
+import color_craftsman as cc
 
 # Create a palette with 10 total colors
 extended_palette = cc.extend_palette(
@@ -67,7 +67,7 @@ cc.visualize_palette(extended_palette, show=True)
 ### Visualizing a Palette
 
 ```python
-import color_craft as cc
+import color_craftsman as cc
 
 cc.visualize_palette(palette, show=True)
 ```
